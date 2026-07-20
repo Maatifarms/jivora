@@ -21,3 +21,9 @@ export type { ProductSummaryCardProps } from "./product-summary-card";
 
 export { ActivityCard } from "./activity-card";
 export type { ActivityCardProps } from "./activity-card";
+
+export { StatCard } from "./stat-card";
+export type { StatCardProps } from "./stat-card";
+
+export { ActivityFeedItem } from "./activity-feed-item";
+export type { ActivityFeedItemProps } from "./activity-feed-item";
