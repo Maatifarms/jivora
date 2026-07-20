@@ -30,3 +30,9 @@ export type { ActivityFeedItemProps } from "./activity-feed-item";
 
 export { NotificationItem } from "./notification-item";
 export type { NotificationItemProps } from "./notification-item";
+
+export { AnalyticsChart } from "./analytics-chart";
+export type { AnalyticsChartProps } from "./analytics-chart";
+
+export { ReportsTable } from "./reports-table";
+export type { ReportsTableProps } from "./reports-table";
