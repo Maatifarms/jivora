@@ -27,3 +27,6 @@ export type { StatCardProps } from "./stat-card";
 
 export { ActivityFeedItem } from "./activity-feed-item";
 export type { ActivityFeedItemProps } from "./activity-feed-item";
+
+export { NotificationItem } from "./notification-item";
+export type { NotificationItemProps } from "./notification-item";
