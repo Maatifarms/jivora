@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-sky: #0284c7;
+  --color-brand-sky-light: #e0f2fe;
+  --color-brand-sky-dark: #0369a1;
+  --color-brand-sky-accent: #38bdf8;
+  
+  --color-navy-dark: #020617;
+  --color-navy: #0f172a;
+  --color-navy-light: #1e293b;
+  --color-navy-border: #334155;
+  --color-navy-muted: #64748b;
+  
+  --color-grey-light: #f8fafc;
+  --color-grey-medium: #f1f5f9;
+  --color-grey-border: #e2e8f0;
+  
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@layer base {
+  body {
+    background-color: #ffffff;
+    color: #0f172a;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom premium styles */
+.gradient-bg-hero {
+  background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.08) 0%, rgba(255, 255, 255, 0) 50%),
+              radial-gradient(circle at top left, rgba(2, 132, 199, 0.05) 0%, rgba(255, 255, 255, 0) 40%);
+}
+
+.gradient-text-premium {
+  background: linear-gradient(135deg, #0f172a 30%, #0284c7 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-sky {
+  background: linear-gradient(135deg, #38bdf8 30%, #0284c7 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-shadow-premium {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.03), 
+              0px 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.card-shadow-premium-hover:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02), 
+              0px 12px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* Glassmorphism utility */
+.glass-effect {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-effect-dark {
+  background-color: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
