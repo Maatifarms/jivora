@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+/.pnpm-store
+
+# Next.js Build Artifacts
+/.next/
+/out/
+/dist/
+/build/
+
+# TypeScript Build Info
+*.tsbuildinfo
+next-env.d.ts
+
+# Production & Environment Variables
+.env
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing & Coverage
+/coverage/
+/.nyc_output/
+
+# IDE & System Files
+.DS_Store
+*.pem
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
